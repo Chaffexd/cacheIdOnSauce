@@ -17,9 +17,9 @@ describe('Login', async() => {
         await password.setValue('SuperSecretPassword!');
 
         const button = await $('//*[@id="login"]/button');
+        await browser.pause(10000);
         await button.click();
         
-        await browser.pause(10000);
     });
     it('confirms we logged in', async() => {
         const successBanner = await $('#flash');

@@ -25,7 +25,7 @@ exports.config = {
     {
         name: 'iOS - cacheID',
         browserName: 'Safari',
-        deviceName: 'iPhone.*',
+        deviceName: 'iPad_10_2_2021_16_real',
         platformName: 'iOS',
         cacheId: randomId,
         build,
@@ -43,7 +43,7 @@ exports.config = {
     // Test Configurations
     // ===================
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'silent',
+    logLevel: 'error',
     bail: 0,
     // Set a base URL in order to shorten url command calls. If your `url` parameter starts
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
