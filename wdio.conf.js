@@ -33,7 +33,7 @@ exports.config = {
     {
         name: 'Android - cacheID',
         browserName: 'Chrome',
-        deviceName: 'Samsung.*',
+        deviceName: 'Samsung S20.*',
         cacheId: 'testId-Android',
         build,
     }
