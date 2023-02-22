@@ -20,7 +20,7 @@ exports.config = {
     // ============
     // Capabilities
     // ============
-    maxInstances: 1,
+    maxInstances: 2,
     capabilities: [
     {
         name: 'iOS - cacheID',
