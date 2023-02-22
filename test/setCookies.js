@@ -11,6 +11,7 @@ it('should set a cookie for the page', async () => {
         // httpOnly: true, // Whether the cookie is an HTTP only cookie. Defaults to false
         // expiry: 1551393875 // When the cookie expires, specified in seconds since Unix Epoch
     })
+    // test
 
     // set multiple cookies
     await browser.setCookies([
