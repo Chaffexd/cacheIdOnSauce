@@ -43,7 +43,7 @@ exports.config = {
     // Test Configurations
     // ===================
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'error',
+    logLevel: 'info',
     bail: 0,
     // Set a base URL in order to shorten url command calls. If your `url` parameter starts
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
@@ -51,7 +51,7 @@ exports.config = {
     // gets prepended directly.
     baseUrl: 'http://localhost',
     waitforTimeout: 10000,
-    connectionRetryTimeout: 100000,
+    connectionRetryTimeout: 80000,
     connectionRetryCount: 3,
     services: ['sauce'],
     framework: 'mocha',
