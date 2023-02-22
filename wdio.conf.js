@@ -27,14 +27,14 @@ exports.config = {
         browserName: 'Safari',
         deviceName: 'iPad_10_2_2021_16_real',
         platformName: 'iOS',
-        cacheId: randomId,
+        cacheId: 'testId-iOS' + randomId,
         build,
     },
     {
         name: 'Android - cacheID',
         browserName: 'Chrome',
         deviceName: 'Samsung S20',
-        cacheId: 'testId-Android',
+        cacheId: 'testId-Android' + randomId,
         build,
     }
 ],
