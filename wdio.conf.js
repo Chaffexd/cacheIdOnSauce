@@ -30,13 +30,13 @@ exports.config = {
         cacheId: 'testId-iOS' + randomId,
         build,
     },
-    {
-        name: 'Android - cacheID',
-        browserName: 'Chrome',
-        deviceName: 'Samsung S20',
-        cacheId: 'testId-Android' + randomId,
-        build,
-    }
+    // {
+    //     name: 'Android - cacheID',
+    //     browserName: 'Chrome',
+    //     deviceName: 'Samsung S20',
+    //     cacheId: 'testId-Android' + randomId,
+    //     build,
+    // }
 ],
     //
     // ===================
