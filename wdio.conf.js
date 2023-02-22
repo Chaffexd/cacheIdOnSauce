@@ -25,7 +25,7 @@ exports.config = {
     {
         name: 'iOS - cacheID',
         browserName: 'Safari',
-        deviceName: 'iPad_10_2_2021_16_real',
+        deviceName: 'iPad_10_2_2021_16_real' || 'iPhone.*',
         platformName: 'iOS',
         cacheId: 'testId-iOS' + randomId,
         build,
