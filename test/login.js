@@ -4,15 +4,26 @@ describe('Login', async() => {
         console.log(await browser.getTitle());
         // should return The Internet
     });
-    it('select login page and logs in', async() => {
+    it('confirms fields are present', async () => {
         const link = await $('=Form Authentication');
         link.click();
+        await browser.pause(10000);
 
         const username = await $('#username');
         const password = await $('#password');
+
         
+        await expect(username).toBePresent();
+        await expect(password).toBePresent();
+    });
+    it('select login page and logs in', async() => {
+        const username = await $('#username');
+        const password = await $('#password');
+        
+        await browser.pause(2000);
         await username.click();
         await username.setValue('tomsmith');
+        await browser.pause(2000);
         await password.click();
         await password.setValue('SuperSecretPassword!');
 
