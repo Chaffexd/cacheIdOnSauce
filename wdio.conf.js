@@ -15,7 +15,6 @@ exports.config = {
     ],
     // ============
     // Capabilities
-    // ============
     maxInstances: 1,
     capabilities: [
     {
