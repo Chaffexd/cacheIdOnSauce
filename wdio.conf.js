@@ -3,10 +3,6 @@ const randomId = Math.floor(Math.random() * 10000000) + 'xyz';
 console.log(randomId);
 
 exports.config = {
-    // ====================
-    // Runner Configuration
-    // ====================
-    // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
     user: process.env.SAUCE_USERNAME,
     key: process.env.SAUCE_ACCESS_KEY,
